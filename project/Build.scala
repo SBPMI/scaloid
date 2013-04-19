@@ -4,7 +4,7 @@ import Keys._
 object BuildSettings {
   lazy val basicSettings = Seq(
     version               := "1.2_8-SNAPSHOT",
-    organization          := "scaloid",
+    organization          := "org.scaloid",
     organizationHomepage  := Some(new URL("http://blog.scaloid.org")),
     description           := "Rapid Android Development with Scala",
     startYear             := Some(2012),
